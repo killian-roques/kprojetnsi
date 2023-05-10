@@ -1,0 +1,96 @@
+
+body {
+  font-family: Arial;
+  margin: 60;
+  text-align: left;
+  
+}
+
+header {
+  background-color: #001D6E;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+
+h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1,5;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 1,5;
+  margin: 20px 0;
+}
+
+
+td {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+
+#destinations {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  color: #006699;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+    background-color: #ccc;     /* Ajout de la couleur d'arrière-plan */
+}
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 200px;             /* Largeur minimale des liens */
+}
